@@ -28,17 +28,20 @@ So, I came up with this...
 
 '''
 s = input("Enter the string: ")
+
 sub_string = input("Enter the substring: ")
 
 count = 0
+
 i = 0
 
-while i <= len(s)-2 :
+while i  <=  len(s)-2 :
+
     if s[i:(i+3)] == sub_string :
         count += 1
     i += 1     
 
-print("Number of times bob occurs is: " + str(count))
+print("Number of times {0} occurs is: {1}".format(substring, count)
 
 '''
 
