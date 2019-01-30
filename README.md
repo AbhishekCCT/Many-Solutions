@@ -26,6 +26,21 @@ So, I came up with this...
 
 #Code with better reusability...
 
+'''
+s = input("Enter the string: ")
+sub_string = input("Enter the substring: ")
+
+count = 0
+i = 0
+
+while i <= len(s)-2 :
+    if s[i:(i+3)] == sub_string :
+        count += 1
+    i += 1     
+
+print("Number of times bob occurs is: " + str(count))
+
+'''
 
 Then it came to me that I won't always be the one with the best of the ideas or solutions(I'm sure this can be done in a far better way then it is now). So I've created this repo to make a bank of "best of the ideas" and the "best of the solutions" in a "many-solution" way.
 
